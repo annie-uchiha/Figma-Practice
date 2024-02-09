@@ -6,6 +6,23 @@ header {
   padding: 18.5px 70px 18.5px 1900px;
 }
 
+.globe-icon {
+  border: none;
+}
+
+.signup-button-nav {
+  border: none;
+  font-size: 16px;
+}
+
+.request-demo-btn {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #aed6b3;
+  color: black;
+  font-size: 16px;
+}
+
 body {
   background-color: #f5f2eb;
   font-family: "Inter", sans-serif;
@@ -29,6 +46,15 @@ body {
 
 .font-weight-bold {
   font-weight: 700;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form-subtitle {
+  color: #f5f2eb;
+  text-align: center;
 }
 
 button {
@@ -55,6 +81,7 @@ img {
 
 .input-field {
   display: block;
+  text-align: center;
 }
 
 #sign-in-btn-form {
@@ -68,10 +95,17 @@ img {
 }
 
 .social-media-btn {
-  width: 120px;
+  width: 100px;
   height: 40px;
   border: 1px;
+  border-color: black;
   border-radius: 40px;
   padding: 16px 30px;
+  margin: 2px 2px;
   color: #000000;
+  background-color: #ffffff;
+}
+
+span {
+  text-align: center;
 }
