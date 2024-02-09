@@ -66,6 +66,7 @@ button {
 }
 
 .landing-page {
+  margin: 50px 20px 50px 150px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -76,11 +77,20 @@ button {
   border-radius: 30px;
   background-color: #ffffff;
   padding: 58px 52px 66px 52px;
+ 
 }
 
 img {
   width: 600px;
   height: 600px;
+}
+
+#user {
+  color: #797979;
+}
+
+passcode {
+  color: #797979;
 }
 
 .input-field {
@@ -89,7 +99,8 @@ img {
   margin: 10px 0 10px 0;
 }
 
-label, input {
+label,
+input {
   display: block;
 }
 
@@ -104,9 +115,10 @@ label, input {
 }
 
 .social-media-btn {
+  weight: 120px;
+  height: 40px;
   border-radius: 40px;
-  padding: 16px 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #000000;
   background-color: #ffffff;
 }
@@ -117,4 +129,5 @@ p {
 
 #register-now {
   text-align: center;
+  color: #797979;
 }
