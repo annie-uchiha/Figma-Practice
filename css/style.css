@@ -8,16 +8,19 @@ header {
 
 .globe-icon {
   border: none;
+  background-color: #f5f2eb;
 }
 
 .signup-button-nav {
   border: none;
   font-size: 16px;
+  background-color: #f5f2eb;
 }
 
 .request-demo-btn {
   border: 1px solid black;
   border-radius: 4px;
+  padding: 5px;
   background-color: #aed6b3;
   color: black;
   font-size: 16px;
@@ -55,6 +58,7 @@ body {
 .form-subtitle {
   color: #f5f2eb;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 button {
@@ -82,6 +86,11 @@ img {
 .input-field {
   display: block;
   text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+label, input {
+  display: block;
 }
 
 #sign-in-btn-form {
@@ -95,17 +104,17 @@ img {
 }
 
 .social-media-btn {
-  width: 100px;
-  height: 40px;
-  border: 1px;
-  border-color: black;
   border-radius: 40px;
   padding: 16px 30px;
-  margin: 2px 2px;
+  margin-bottom: 50px;
   color: #000000;
   background-color: #ffffff;
 }
 
-span {
+p {
+  text-align: center;
+}
+
+#register-now {
   text-align: center;
 }
