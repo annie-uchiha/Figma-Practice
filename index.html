@@ -1,72 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Landing Page</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <nav id="navigation-container">
-        <ul>
-          <li>
-            <button><i class="fa-solid fa-globe"></i></button>
-          </li>
-          <li><button>Sign up</button></li>
-          <li>
-            <button>
-              Request Demo<i class="fa-solid fa-arrow-up-right-dots"></i>
-            </button>
-          </li>
-        </ul>
-      </nav>
+        <nav id="navigation-container">
+            <ul>
+                <li>
+                    <button><i class="fa-solid fa-globe"></i></button>
+                </li>
+                <li><button>Sign up</button></li>
+                <li>
+                    <button>
+                        Request Demo<i class="fa-solid fa-arrow-up-right-dots"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <section class="landing-page" id="signin-container">
-        <h1>Sign in</h1>
-        <h2>Hey, Enter your details to login to your account</h2>
-        <section id="signin-form">
-          <form action="" method="post">
-            <label for="user">User</label>
-            <input type="text" name="user" id="user" />
-            <label for="passcode">Passcode</label>
-            <input type="password" name="passcode" id="passcode" />
-            <a href="">Forgotten passcode?</a>
-            <button type="submit">Sign in</button>
-          </form>
+        <section class="landing-page" id="signin-container">
+            <h1>Sign in</h1>
+            <h2>Hey, Enter your details to login to your account</h2>
+            <section id="signin-form">
+                <form action="" method="post">
+                    <label for="user" class="input-field">User</label>
+                    <input type="text" name="user" id="user" />
+                    <label for="passcode" class="input-field">Passcode</label>
+                    <input type="password" name="passcode" id="passcode" />
+                    <a href="" class="input-field">Forgotten passcode?</a>
+                    <button type="submit" id="sign-in-btn-form">Sign in</button>
+                </form>
+            </section>
+            <section id="signin-social-media-options">
+                <p>Or sign in with</p>
+                <div id="social-media-buttons">
+                    <button class="social-media-btn">
+                        <i class="fa-brands fa-google"></i>Google
+                    </button>
+                    <button class="social-media-btn">
+                        <i class="fa-brands fa-apple"></i>Apple ID
+                    </button>
+                    <button class="social-media-btn">
+                        <i class="fa-brands fa-facebook"></i>Facebook
+                    </button>
+                </div>
+                <div>
+                    <span>Don't have an account?</span>
+                    <a href="">Register Now</a>
+                </div>
+            </section>
         </section>
-        <section id="signin-social-media-options">
-          <p>Or sign in with</p>
-          <div id="social-media-buttons">
-            <button><i class="fa-brands fa-google"></i>Google</button>
-            <button><i class="fa-brands fa-apple"></i>Apple ID</button>
-            <button><i class="fa-brands fa-facebook"></i>Facebook</button>
-          </div>
-          <div>
-            <span>Don't have an account?</span>
-            <a href="">Register Now</a>
-          </div>
+        <section class="landing-page">
+            <img src="./image/image.png" alt="landing-page-image" />
         </section>
-      </section>
-      <section class="landing-page">
-        <img src="./image/image.png" alt="landing-page-image" />
-      </section>
     </main>
-  </body>
+</body>
+
 </html>

@@ -3,12 +3,36 @@
 }
 
 header {
-  padding: 18.5px 70px 18.5px 2000px;
+  padding: 18.5px 70px 18.5px 1900px;
 }
 
 body {
   background-color: #f5f2eb;
   font-family: "Inter", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-weight-regular {
+  font-weight: 400;
+}
+
+.font-weight-medium {
+  font-weight: 500;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+button {
+  font-family: inherit;
 }
 
 .landing-page {
@@ -27,4 +51,27 @@ body {
 img {
   width: 600px;
   height: 600px;
+}
+
+.input-field {
+  display: block;
+}
+
+#sign-in-btn-form {
+  background-color: #aed6b3;
+  color: #ffffff;
+  font-size: 16px;
+  width: 375px;
+  height: 43px;
+  padding: 12px 18px;
+  border-radius: 4px;
+}
+
+.social-media-btn {
+  width: 120px;
+  height: 40px;
+  border: 1px;
+  border-radius: 40px;
+  padding: 16px 30px;
+  color: #000000;
 }
