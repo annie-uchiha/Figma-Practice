@@ -1,7 +1,30 @@
+#navigation-container li {
+  display: inline-block;
+}
+
+header {
+  padding: 18.5px 70px 18.5px 2000px;
+}
+
 body {
   background-color: #f5f2eb;
+  font-family: "Inter", sans-serif;
 }
 
 .landing-page {
   display: inline-block;
+  vertical-align: middle;
+}
+
+#signin-container {
+  width: 376px;
+  height: 524px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  padding: 58px 52px 66px 52px;
+}
+
+img {
+  width: 600px;
+  height: 600px;
 }
