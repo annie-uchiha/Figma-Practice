@@ -5,65 +5,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Landing Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Figma-Practice/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="../Figma-Practice/css/style.css" type="text/css" />
 </head>
 
 <body>
     <header>
-        <nav id="navigation-container">
+        <nav class="main-nav">
             <ul>
-                <li><button class="globe-icon"><i class="fa-solid fa-globe"></i></button></li>
-                <li><button class="signup-button-nav">Sign up</button></li>
-                <li><button class="request-demo-btn">Request Demo<i
-                            class="fa-solid fa-arrow-up-right-dots"></i></button></li>
+                <li>
+                    <button class="btn-secondary mr-10">
+                        <i class="fa-solid fa-globe"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn-secondary mr-10">
+                        <span class="font-weight-regular">Sign up</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="btn-primary">
+                        <span class="font-weight-medium mr-10">Request Demo</span><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <section class="landing-page" id="signin-container">
-            <h1 class="form-title">Sign in</h1>
-            <h2 class="form-subtitle">
-                Hey, Enter your details to login to your account
-            </h2>
+        <section id="signin" class="signin">
+            <h1 class="mb-12">Sign in</h1>
+            <h2 class="mb-32">Hey, Enter your details to login to your account</h2>
             <section id="signin-form">
-                <form action="" method="post">
-                    <label for="user" class="input-field"></label>
-                    <input type="text" name="user" id="user" value="Enter Email/Phone No" />
-                    <label for="passcode" class="input-field"></label>
-                    <input type="password" name="passcode" id="passcode" value="Passcode" />
-                    <a href="" class="input-field">Forgotten passcode?</a>
-                    <button type="submit" id="sign-in-btn-form">Sign in</button>
+                <form action="" method="post" class="signin-form">
+                    <label for="user">User</label>
+                    <input type="text" name="user" id="user" class="mb-12" placeholder="Enter Email / Phone No" />
+                    <label for="passcode">Passcode</label>
+                    <input type="password" name="passcode" id="passcode" class="mb-12" placeholder="Passcode" />
+                    <div class="txt-align-left">
+                        <a href="" class="forgot-password mb-32">Forgot your password</a>
+                    </div>
+                    <button type="submit" class="btn-primary signin-button mb-32">
+                        Sign in
+                    </button>
                 </form>
             </section>
-
-            <section id="signin-social-media-options">
-                <p>— Or sign in with —</p>
-                <div id="social-media-buttons">
-                    <button class="social-media-btn">
-                        <i class="fa-brands fa-google"></i>Google
+            <section id="signin-options mb-32">
+                <p class="signin-with-txt font-weight-medium mb-32">
+                    Or Sign in with
+                </p>
+                <div id="social-media-buttons" class="social-media-buttons mb-32">
+                    <button class="btn-secondary">
+                        <i class="fa-brands fa-google mr-10"></i>Google
                     </button>
-                    <button class="social-media-btn">
-                        <i class="fa-brands fa-apple"></i>Apple ID
+                    <button class="btn-secondary">
+                        <i class="fa-brands fa-apple mr-10 fa-lg"></i>Apple ID
                     </button>
-                    <button class="social-media-btn">
-                        <i class="fa-brands fa-facebook"></i>Facebook
+                    <button class="btn-secondary">
+                        <i class="fa-brands fa-facebook mr-10"></i>Facebook
                     </button>
                 </div>
-                <div id="register-now">
-                    <span>Don't have an account?</span>
-                    <a href="">Register Now</a>
-                </div>
+                <span class="missing-account font-size-12">Don't have an account?</span>
+                <a href="" class="register-now font-size-12 font-weight-bold">Register Now</a>
             </section>
         </section>
-        <section class="landing-page">
-            <img src="./image/image.png" alt="landing-page-image" />
+        <section class="img-section">
+            <img src="../Figma-Practice/image/image.png" alt="hero-image" />
         </section>
     </main>
 </body>
